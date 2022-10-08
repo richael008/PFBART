@@ -1,0 +1,10 @@
+useDynLib(PFBART,.registration = TRUE)
+
+export(pfbart,pfmakeind)
+
+
+importFrom(nnet,class.ind)
+importFrom("graphics", "abline", "contour", "image", "lines", "par","plot", "title")
+importFrom("stats", "lm", "pnorm", "quantile")
+
+
